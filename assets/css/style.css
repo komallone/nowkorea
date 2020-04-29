@@ -29,6 +29,7 @@ section {
 }
 h1 {
     font-weight:900;
+    
 }
 .pad-btm {
     padding-bottom:50px;
@@ -57,35 +58,6 @@ home-sec .carousel-caption {
     NAV STYLES
   =======================================*/
 
-#nav{
-	position: fixed;
-	top: 60%;
-	right:10px;
-}
-
-#nav li{
-	display: block;
-margin: 10px;
-width: 20px;
-height: 20px;
-overflow: hidden;
-background-color: rgb(0, 0, 0);
-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-box-shadow: 0px 0px 3px 2px rgb(255, 255, 255);
-	-moz-box-shadow: 0px 0px 3px 2px rgb(255, 255, 255);
-	-ms-box-shadow: 0px 0px 3px 2px rgb(255, 255, 255);
-	box-shadow: 0px 0px 3px 2px rgb(255, 255, 255);
-}
-
-#nav li:hover{
-	background-color:#fff;
-}
-
-#nav a{
-	text-indent: -999em;
-	color: transparent;
-}
 
 /*======================================
    ABOUT SECTION STYLES
