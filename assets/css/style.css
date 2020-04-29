@@ -365,8 +365,8 @@ body {
 
 .navbar-light .navbar-brand {
   line-height: 1.68;
-  text-align: left;
-  color: #35465d; 
+  text-align: center;
+  color: #ffffff; 
 }
 
 .navbar-light .navbar-toggler {
