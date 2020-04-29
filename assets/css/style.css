@@ -373,9 +373,9 @@ body {
 }
 
 .section {
-    margin-top: 5px;
+    margin-top: 1px;
       color:#fff;
-    background-color:#1e7e52;
+   background-color:#E23E3E;
      
     }
 
@@ -383,13 +383,13 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #35465d;
+  color: #ffffff;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #35465d;
+  color: #ffffff;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
