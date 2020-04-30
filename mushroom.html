@@ -22,9 +22,8 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ea9dd0e7ffa2444"></script>  -->
-
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ea9dd0e7ffa2444"></script>  -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
@@ -99,7 +98,7 @@
     <!-- HOME SECTION END-->
     <div id="nav">
         <ul class="list-unstyled">
-              <li>
+            <li>
                 <a data-toggle="tooltip" data-placement="left" title="홈" href="index.html">홈</a>
             </li>
             <li>
@@ -178,7 +177,7 @@
         <h1 class="title">한국의 버섯</h1>
         <h2 class="subtitle"></h2>
         <h2 class="sr-only">한국의 버섯</h2>
-         <h3 class="sr-only">버섯 사진 데이터로 학습한 인공지능이 야생화의 이름과 설명을 찾아드립니다.</h3>
+        <h3 class="sr-only">버섯 사진 데이터로 학습한 인공지능이 야생화의 이름과 설명을 찾아드립니다.</h3>
         <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
         <p class="sr-only">한국의 버섯.</p>
     </section>
@@ -194,21 +193,20 @@
         </div>
         <div class="file-upload-content">
             <img class="file-upload-image" id="face-image" src="#" alt="your image" />
-            
+
             <div id="loading" class="animated bounce">
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading...</span>
                 </div>
-                   <p class="text-center">구글 인공지능이 사진을 분석중입니다.</p>
+                <p class="text-center">구글 인공지능이 사진을 분석중입니다.</p>
             </div>
             <p class="result-message"></p>
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
-           
-                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-       <!--         <div class="addthis_inline_share_toolbox"></div>
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <!--         <div class="addthis_inline_share_toolbox"></div>
             
             -->
-            
 
             <div class="pt-3 image-title-wrap">
                 <button type="button p-2" class="try-again-btn" onclick="gaReload2();" data-toggle="modal" data-target="#adModal">
@@ -301,7 +299,7 @@
         // More API functions here:
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
         // the link to your model provided by Teachable Machine export panel
-       const URL = "https://teachablemachine.withgoogle.com/models/rBEm_YdXX/";
+        const URL = "https://teachablemachine.withgoogle.com/models/rBEm_YdXX/";
         let model, webcam, labelContainer, maxPredictions;
         // Load the image model and setup the webcam
         async function init() {
@@ -327,7 +325,7 @@
             console.log(prediction[0].className);
             var resultMessege;
             switch (prediction[0].className) {
-               case "Class 1":
+                case "Class 1":
                     resultMessege = "가죽밤그물버섯"
                     break;
                 case "Class 2":
@@ -618,10 +616,8 @@
                 case "Class 97":
                     resultMessege = "차가버섯"
                     break;
-case "Class 98":
+                case "Class 98":
                     resultMessege = "영지버섯"
-                    break;
-"
                     break;
                 case "Class 99":
                     resultMessege = "혓바늘목이"
@@ -737,8 +733,7 @@ case "Class 98":
                 case "Class 136":
                     resultMessege = "밤색갓버섯"
                     break;
-              
-                       case "Class 137":
+                case "Class 137":
                     resultMessege = "솜갓버섯"
                     break;
                 case "Class 138":
@@ -791,7 +786,6 @@ case "Class 98":
                     break;
             }
             $('.result-message').html(resultMessege);
-           
         }
     </script>
 
