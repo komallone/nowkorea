@@ -38,8 +38,6 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e64b3727e862b06"></script>
- 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
@@ -208,9 +206,7 @@
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
 
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
-            <!--         <div class="addthis_inline_share_toolbox"></div>
-            
-            -->
+            <div class="addthis_inline_share_toolbox"></div>
 
             <div class="pt-3 image-title-wrap">
                 <button type="button p-2" class="try-again-btn" onclick="gaReload2();" data-toggle="modal" data-target="#adModal">
@@ -303,7 +299,7 @@
         // More API functions here:
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
         // the link to your model provided by Teachable Machine export panel
-         const URL = "https://teachablemachine.withgoogle.com/models/E_ISTeZYw/";
+        const URL = "https://teachablemachine.withgoogle.com/models/E_ISTeZYw/";
         let model, webcam, labelContainer, maxPredictions;
         // Load the image model and setup the webcam
         async function init() {
@@ -329,7 +325,7 @@
             console.log(prediction[0].className);
             var resultMessege;
             switch (prediction[0].className) {
-                 case "Class 1":
+                case "Class 1":
                     resultMessege = "고광나무"
                     break;
                 case "Class 2":
@@ -419,7 +415,6 @@
                 case "Class 30":
                     resultMessege = "봄맞이꽃"
                     break;
-                
                 default:
                     resultMessege = "알수없음"
                     break;
@@ -427,7 +422,7 @@
             $('.result-message').html(resultMessege);
         }
     </script>
-    
+
     <!-- FEATURE SECTION END-->
     <!--
    <section id="team-sec">
@@ -538,6 +533,9 @@
             <script src="assets/js/custom.js"></script>
 
             <body>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ea9dd0e7ffa2444"></script>
+
             </body>
             <!-- 
 image input box
