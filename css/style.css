@@ -58,13 +58,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
+    
   padding: 0px;
   height: inherit;
   font-family: 'Lato', sans-serif;
 }
 
 .navbar-default .navbar-brand {
-  color: #fff;
+  color: #339933;
   font-size: 34px;
   text-transform: uppercase;
   font-weight: 700;
@@ -134,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 100px;
   font-size: 35px;
   font-weight: 700;
-  color: #fff;
+  color: #339933;
   line-height: 88px;
   letter-spacing: 1px;
   opacity: 1;
@@ -776,11 +777,11 @@ body {
 .navbar-light .navbar-brand {
   line-height: 1.68;
   text-align: center;
-  color: #ffffff; 
+  color: #339933; 
 }
 
 .navbar-light .navbar-toggler {
-    border-color: #ffffff;
+    border-color: #339933;
 }
 
 .section {
@@ -794,7 +795,7 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #ffffff;
+  color: #339933;
 }
 
 .subtitle {
